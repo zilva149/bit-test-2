@@ -13,6 +13,7 @@ body * {
 
 body {
     font-family: 'Inter', sans-serif;
+    font-size: 24px;
 }
 
 ul, ol {
@@ -23,10 +24,10 @@ a {
     text-decoration: none;
 }
 
-p {
-    font-size: 24px;
+.desc-bg {
+    font-size: 26px;
 }
 
-.main-desc {
-    font-size: 24px;
+.desc-sm {
+    font-size: 20px;
 }
