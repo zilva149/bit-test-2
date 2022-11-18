@@ -4,4 +4,30 @@
 @import '../base/layout.css';
 @import '../components/header.css';
 @import '../components/buttons.css';
+
 /* HOME */
+
+.hero {
+    min-height: 90vh;
+    background-image: url('../../assets/img/bg-hero.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 41px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+
+.hero-info .main-title {
+    margin-bottom: 2rem;
+}
+
+.hero-btns {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+}

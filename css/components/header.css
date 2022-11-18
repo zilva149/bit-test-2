@@ -1,0 +1,28 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    padding: 2rem 0;
+}
+
+.logo {
+    color: var(--black);
+}
+
+.nav {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.nav-link {
+    color: var(--black);
+    text-transform: capitalize;
+    transition: all ease-out 0.25s;
+    border-bottom: 1px solid var(--black);
+    padding-bottom: 0.2rem;
+}
+
+.nav-link:hover {
+    transform: scale(0.95);
+}

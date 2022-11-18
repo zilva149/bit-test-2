@@ -2,6 +2,13 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
 
+/* GLOBAL COLORS */
+
+:root {
+    --black: #000000;
+    --gray: #f6f6f6;
+}
+
 /* CSS RESET */
 
 body,
@@ -24,10 +31,24 @@ a {
     text-decoration: none;
 }
 
+.main-title {
+    font-size: 64px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.section-title {
+    font-size: 48px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
 .desc-bg {
     font-size: 26px;
+    text-align: center;
 }
 
 .desc-sm {
     font-size: 20px;
+    text-align: center;
 }

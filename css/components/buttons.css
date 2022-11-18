@@ -1,0 +1,14 @@
+/* PRIMARY-BTNS */
+
+.primary-btn {
+    color: #ffffff;
+    background-color: var(--black);
+    padding: 15px 30px;
+}
+
+.primary-btn-light {
+    background-color: #ffffff;
+    color: var(--black);
+}
+
+/* SECONDARY-BTNS */
