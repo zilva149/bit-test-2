@@ -5,6 +5,12 @@
     padding-bottom: 80px;
 }
 
+@media screen and (max-width: 499px) {
+    .container {
+        width: 95%;
+    }
+}
+
 @media screen and (min-width: 992px) {
     .container{
         padding-top: 120px;
