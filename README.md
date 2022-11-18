@@ -12,7 +12,7 @@ Site publishes at: https://zilva149.github.io/bit-test-2/
 - CSS Flexbox
 - CSS Grid
 - pseudo elements
-- form
+- basic JS form validation
 - media queries for responsive design
 
 ## Authors
