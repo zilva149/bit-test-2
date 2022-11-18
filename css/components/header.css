@@ -21,9 +21,9 @@
 .nav-link {
     color: var(--black);
     text-transform: capitalize;
-    transition: all ease-out 0.25s;
     border-bottom: 1px solid var(--black);
     padding-bottom: 0.2rem;
+    transition: var(--default-transition);
 }
 
 .nav-link:hover {

@@ -5,6 +5,11 @@
     background-color: var(--black);
     padding: 15px 30px;
     text-align: center;
+    transition: var(--default-transition);
+}
+
+.primary-btn:hover {
+    transform: scale(0.95);
 }
 
 .primary-btn-light {
@@ -13,3 +18,22 @@
 }
 
 /* SECONDARY-BTNS */
+
+.secondary-btn {
+    font-size: 32px;
+    color: #ffffff;
+    border-radius: 11px;
+    background-color: var(--dgray);
+    padding: 15px 30px;
+    text-align: center;
+    transition: var(--default-transition);
+}
+
+.secondary-btn:hover {
+    transform: scale(0.95);
+}
+
+.secondary-btn-light {
+    color: var(--black);
+    background-color: var(--lgray);
+}
