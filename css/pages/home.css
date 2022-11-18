@@ -174,3 +174,50 @@
     }
 }
 /* NEWSLETTER-SECTION-end */
+/* FOOTER-SECTION-start */
+.footer-container {
+    background-color: var(--gray);
+}
+
+.footer-container .container {
+    padding-bottom: 0;
+}
+
+.footer .section-title {
+    margin-bottom: 2rem;
+}
+
+.footer-info-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    padding-bottom: 6rem;
+}
+
+.footer-info-container::after {
+    content: '';
+    position: absolute;
+    height: 4px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #fff;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 1px 4px 0px;
+}
+
+.footer-info .desc-sm {
+    margin-bottom: 1.5rem;
+}
+
+.footer-copyright {
+    text-align: center;
+    padding: 30px 0;
+}
+
+@media screen and (min-width: 992px) {
+    .footer-info-container {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+/* FOOTER-SECTION-end */
