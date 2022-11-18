@@ -12,14 +12,18 @@ form.addEventListener("submit", (e) => {
 
 // FUNCTIONS
 function validateEmail(value) {
-  const validDomains = [".com", ".lt", ".uk", "de", "lv", "ru"];
-  const end = value.slice(-4);
-  if (!validDomains.includes(end)) return alert("Invalid domain");
-  const domain = value.split("@");
+  const validDomains = ["com", "lt", "uk", "de", "lv", "ru"];
+  let domain = value.split("@");
   let count = 0;
   for (let i = 0; i < domain[1].length; i++) {
     if (domain[1][i] === ".") count++;
   }
   if (count > 1) return alert("Invalid email address");
+  const end = domain[1].split(".")[1];
+  if (!validDomains.includes(end)) {
+    return alert(
+      "Invalid domain, please enter one of the following domains: 'com', 'lt', 'uk', 'de', 'lv', ''ru"
+    );
+  }
   return alert("Email address is submitted");
 }
