@@ -21,6 +21,10 @@
     gap: 5rem;
 }
 
+.hero-info {
+    max-width: 550px;
+}
+
 .hero-info .main-title {
     margin-bottom: 2rem;
 }
@@ -30,4 +34,10 @@
     flex-direction: column;
     gap: 1rem;
     align-items: center;
+}
+
+@media screen and (min-width: 992px) {
+    .hero-btns {
+        flex-direction: row;
+    }
 }
