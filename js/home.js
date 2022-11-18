@@ -14,7 +14,7 @@ form.addEventListener("submit", (e) => {
 function validateEmail(value) {
   const validDomains = [".com", ".lt", ".uk", "de", "lv", "ru"];
   const end = value.slice(-4);
-  if (!validDomains.includes(end)) return alert("Invalid email");
+  if (!validDomains.includes(end)) return alert("Invalid domain");
   let count = 0;
   for (let i = 0; i < value.length; i++) {
     if (value[i] === ".") count++;
