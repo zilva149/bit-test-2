@@ -2,18 +2,17 @@
 
 ## Project information
 
-Site publishes at: to be determined
-
-Design: to be determined
+Site publishes at: https://zilva149.github.io/bit-test-2/
 
 ## Project features
 
 - single-page
 - HTML
 - CSS
-- CSS3 Flexbox
-- main title line - pseudo element
-- icons
+- CSS Flexbox
+- CSS Grid
+- pseudo elements
+- form
 - media queries for responsive design
 
 ## Authors
