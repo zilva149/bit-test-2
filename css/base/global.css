@@ -31,6 +31,10 @@ a {
     text-decoration: none;
 }
 
+p {
+    text-align: center;
+}
+
 .main-title {
     font-size: 64px;
     text-transform: uppercase;
@@ -45,10 +49,9 @@ a {
 
 .desc-bg {
     font-size: 26px;
-    text-align: center;
 }
 
 .desc-sm {
     font-size: 20px;
-    text-align: center;
+    text-align: left;
 }

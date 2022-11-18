@@ -1,11 +1,14 @@
-/* STYLESHEET IMPORTS */
-
+/* STYLESHEET-IMPORTS-start */
 @import '../base/global.css';
 @import '../base/layout.css';
 @import '../components/header.css';
 @import '../components/buttons.css';
+/* STYLESHEET-IMPORTS-end */
 
-/* HOME */
+/* HERO-SECTION-start */
+.hero-container .container {
+    padding-top: 0;
+}
 
 .hero {
     min-height: 90vh;
@@ -41,3 +44,43 @@
         flex-direction: row;
     }
 }
+/* HERO-SECTION-end */
+/* FEATURES-SECTION-start */
+
+.features-container {
+    background-color: var(--gray);
+}
+
+.features .section-title {
+    margin-bottom: 6rem;
+}
+
+.features-box-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    gap: 4rem;
+}
+
+.feature-box {
+    max-width: 320px;
+}
+
+.feature-img {
+    margin-bottom: 4rem;
+}
+
+@media screen and (min-width: 768px) {
+    .features-box-container {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .features-box-container {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+/* FEATURES-SECTION-end */
