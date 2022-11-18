@@ -22,3 +22,11 @@ ul, ol {
 a {
     text-decoration: none;
 }
+
+p {
+    font-size: 24px;
+}
+
+.main-desc {
+    font-size: 24px;
+}
